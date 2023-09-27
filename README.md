@@ -13,6 +13,8 @@ ResNet-50 has demonstrated strong generalization capabilities. It can adapt well
 ## Images Preprocessing 
 ### I have used the following augmentations 
 1- ToTensor: Converts an image from its original format (e.g., JPEG) into a numerical representation (tensor).
+
 2- Normalization: By scaling pixel values to a standard range, typically between 0 and 1 or -1 and 1, normalization ensures that input data to a neural network is consistently and uniformly scaled. This leads to more stable and faster training, while also mitigating issues related to varying lighting conditions.
+
 3- Random Crop: During training, the image is randomly cropped to show the model different regions of the image. This variation in the training data helps to improve the model's robustness and its ability to generalize to different object positions or image sizes.
 
